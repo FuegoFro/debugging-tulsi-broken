@@ -10,9 +10,9 @@ Even after building, turning off the breakpoint, restarting xcode, then turning 
 
 2. With the dwarfpatcher (with dsym)
 
-[export TULSI_USE_DSYM=YES](img/runscript.png)
+![export TULSI_USE_DSYM=YES](img/runscript.png)
 
 In both cases, if I press pause and inspect breakpoints in lldbinit, this breakpoint is not associated with a particular file.
 
-[breakpoint pending](img/pendingbp.png)
+![breakpoint pending](img/pendingbp.png)
 
