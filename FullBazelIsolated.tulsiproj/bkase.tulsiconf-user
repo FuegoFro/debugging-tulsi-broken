@@ -1,0 +1,10 @@
+{
+  "optionSet" : {
+    "BazelPath" : {
+      "p" : "\/Users\/bkase\/code\/ios\/Scripts\/bazel\/lib\/bazel\/bin\/bazel"
+    },
+    "WorkspaceRootPath" : {
+      "p" : "\/Users\/bkase\/code\/FullBazelSample"
+    }
+  }
+}

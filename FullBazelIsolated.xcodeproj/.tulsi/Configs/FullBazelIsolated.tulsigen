@@ -1,0 +1,35 @@
+{
+  "additionalFilePaths" : [
+    "\/BUILD"
+  ],
+  "projectName" : "FullBazelIsolated",
+  "buildTargets" : [
+    "\/\/:Core",
+    "\/\/:FullBazelSample",
+    "\/\/:Lib"
+  ],
+  "optionSet" : {
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : ""
+    },
+    "EnvironmentVariables" : {
+      "p" : ""
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : ""
+    },
+    "CommandlineArguments" : {
+      "p" : ""
+    },
+    "BazelBuildOptionsDebug" : {
+      "p" : ""
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : ""
+    }
+  },
+  "sourceFilters" : [
+    "Sources",
+    "Sources\/Public"
+  ]
+}
