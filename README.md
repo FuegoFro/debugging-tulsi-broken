@@ -1,5 +1,9 @@
 ## Basic debugging not working in Tulsi
 
+Track issue here: https://github.com/bazelbuild/tulsi/issues/16
+
+----
+
 I created and generated a simple Xcode project (checked in) from HEAD of Tulsi (Version 0.4.155646550.20170510).
 
 With Xcode 8.3.2, when running in Debug and a breakpoint on line 7 of "Sources/Public/Simple.m", the breakpoint is not hit
