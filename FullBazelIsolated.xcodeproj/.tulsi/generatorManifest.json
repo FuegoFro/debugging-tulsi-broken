@@ -1,22 +1,5 @@
 {
   "manifestVersion" : 3,
-  "targets" : {
-    "FullBazelSample" : [
-      "bazel-bin\/FullBazelSample.ipa"
-    ],
-    "_idx_Core_03820109" : [
-
-    ],
-    "Core" : [
-      "bazel-bin\/libCore.a"
-    ],
-    "Lib" : [
-      "bazel-bin\/libLib.a"
-    ],
-    "_bazel_clean_" : [
-
-    ]
-  },
   "artifacts" : [
     "FullBazelSample.app\/**",
     "bazel-bin\/FullBazelSample-MergedInfo.plist",
@@ -24,6 +7,23 @@
     "libLib.a",
     "lib_idx_Core_03820109.a"
   ],
+  "targets" : {
+    "FullBazelSample" : [
+      "bazel-bin\/FullBazelSample.ipa"
+    ],
+    "Lib" : [
+      "bazel-bin\/libLib.a"
+    ],
+    "Core" : [
+      "bazel-bin\/libCore.a"
+    ],
+    "_idx_Core_03820109" : [
+
+    ],
+    "_bazel_clean_" : [
+
+    ]
+  },
   "intermediateArtifacts" : {
     "Lib" : [
       "bazel-bin\/libCore.a"

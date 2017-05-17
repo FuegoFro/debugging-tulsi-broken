@@ -126,7 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE475583F06D61E200000000 /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
-				84B42271CC7D190700000000 /* Run Script */,
+				84B422717070468800000000 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -142,7 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE475583D0CA157100000000 /* Build configuration list for PBXNativeTarget "Lib" */;
 			buildPhases = (
-				84B42271EAEDE45A00000000 /* ShellScript */,
+				84B422717B0C6FFD00000000 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -158,7 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE4755836B48200900000000 /* Build configuration list for PBXNativeTarget "FullBazelSample" */;
 			buildPhases = (
-				84B4227107E5F68100000000 /* ShellScript */,
+				84B422713BEB712C00000000 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -200,7 +200,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		84B4227107E5F68100000000 /* ShellScript */ = {
+		84B422713BEB712C00000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -211,23 +211,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "set -e\n\nexport TULSI_USE_DSYM=YES\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:FullBazelSample --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
+			shellScript = "set -e\n\nexport TULSI_USE_DSYM=YES\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:FullBazelSample --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --bazel_package_path \"%workspace%\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
 		};
-		84B42271CC7D190700000000 /* Run Script */ = {
+		84B422717070468800000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:Core --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:Core --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --bazel_package_path \"%workspace%\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
 		};
-		84B42271EAEDE45A00000000 /* ShellScript */ = {
+		84B422717B0C6FFD00000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -238,7 +237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:Lib --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
+			shellScript = "set -e\n\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:Lib --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --bazel_package_path \"%workspace%\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -262,7 +261,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09E063E01ECCECBB00E24FDE /* Debug */ = {
+		09E063E61ECCF52900E24FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -272,7 +271,7 @@
 			};
 			name = Debug;
 		};
-		09E063E11ECCECBB00E24FDE /* Release */ = {
+		09E063E71ECCF52900E24FDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -281,28 +280,28 @@
 			};
 			name = Release;
 		};
-		09E063E21ECCECBB00E24FDE /* __TulsiTestRunner_Debug */ = {
+		09E063E81ECCF52900E24FDE /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		09E063E31ECCECBB00E24FDE /* __TulsiTestRunner_Release */ = {
+		09E063E91ECCF52900E24FDE /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		09E063E41ECCECBB00E24FDE /* __TulsiTestRunner_Debug */ = {
+		09E063EA1ECCF52900E24FDE /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_Core_03820109;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		09E063E51ECCECBB00E24FDE /* __TulsiTestRunner_Release */ = {
+		09E063EB1ECCF52900E24FDE /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_Core_03820109;
@@ -340,7 +339,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
-				TULSI_VERSION = 0.4.143437631.20170103;
+				TULSI_PROJECT = FullBazelIsolated;
+				TULSI_VERSION = 0.4.155646550.20170510;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = Debug;
@@ -360,6 +360,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -373,7 +374,6 @@
 				BAZEL_BINARY_TARGET = "//:FullBazelSample.apple_binary";
 				BAZEL_OUTPUTS = "bazel-bin/FullBazelSample.ipa";
 				BAZEL_TARGET = "//:FullBazelSample";
-				BAZEL_TARGET_IPA = /FullBazelSample.ipa;
 				BAZEL_TARGET_TYPE = ios_application;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -384,6 +384,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -404,6 +405,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -463,8 +465,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
+				TULSI_PROJECT = FullBazelIsolated;
 				TULSI_USE_DSYM = YES;
-				TULSI_VERSION = 0.4.143437631.20170103;
+				TULSI_VERSION = 0.4.155646550.20170510;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = Release;
@@ -484,6 +487,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -497,7 +501,6 @@
 				BAZEL_BINARY_TARGET = "//:FullBazelSample.apple_binary";
 				BAZEL_OUTPUTS = "bazel-bin/FullBazelSample.ipa";
 				BAZEL_TARGET = "//:FullBazelSample";
-				BAZEL_TARGET_IPA = /FullBazelSample.ipa;
 				BAZEL_TARGET_TYPE = ios_application;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
@@ -508,6 +511,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -528,6 +532,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -585,7 +590,8 @@
 				OTHER_LDFLAGS = "-help";
 				SDKROOT = iphoneos;
 				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
-				TULSI_VERSION = 0.4.143437631.20170103;
+				TULSI_PROJECT = FullBazelIsolated;
+				TULSI_VERSION = 0.4.155646550.20170510;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = __TulsiTestRunner_Debug;
@@ -610,6 +616,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -623,7 +630,6 @@
 				BAZEL_BINARY_TARGET = "//:FullBazelSample.apple_binary";
 				BAZEL_OUTPUTS = "bazel-bin/FullBazelSample.ipa";
 				BAZEL_TARGET = "//:FullBazelSample";
-				BAZEL_TARGET_IPA = /FullBazelSample.ipa;
 				BAZEL_TARGET_TYPE = ios_application;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -639,6 +645,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -664,6 +671,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -698,8 +706,9 @@
 				OTHER_LDFLAGS = "-help";
 				SDKROOT = iphoneos;
 				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
+				TULSI_PROJECT = FullBazelIsolated;
 				TULSI_USE_DSYM = YES;
-				TULSI_VERSION = 0.4.143437631.20170103;
+				TULSI_VERSION = 0.4.155646550.20170510;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = __TulsiTestRunner_Release;
@@ -724,6 +733,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -737,7 +747,6 @@
 				BAZEL_BINARY_TARGET = "//:FullBazelSample.apple_binary";
 				BAZEL_OUTPUTS = "bazel-bin/FullBazelSample.ipa";
 				BAZEL_TARGET = "//:FullBazelSample";
-				BAZEL_TARGET_IPA = /FullBazelSample.ipa;
 				BAZEL_TARGET_TYPE = ios_application;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -753,6 +762,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -778,6 +788,7 @@
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -813,8 +824,8 @@
 			buildConfigurations = (
 				44936BD67EED3C4D00000004 /* Debug */,
 				44936BD6A3D45CE900000004 /* Release */,
-				09E063E41ECCECBB00E24FDE /* __TulsiTestRunner_Debug */,
-				09E063E51ECCECBB00E24FDE /* __TulsiTestRunner_Release */,
+				09E063EA1ECCF52900E24FDE /* __TulsiTestRunner_Debug */,
+				09E063EB1ECCF52900E24FDE /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -822,10 +833,10 @@
 		DE475583CA83BF7E00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09E063E01ECCECBB00E24FDE /* Debug */,
-				09E063E11ECCECBB00E24FDE /* Release */,
-				09E063E21ECCECBB00E24FDE /* __TulsiTestRunner_Debug */,
-				09E063E31ECCECBB00E24FDE /* __TulsiTestRunner_Release */,
+				09E063E61ECCF52900E24FDE /* Debug */,
+				09E063E71ECCF52900E24FDE /* Release */,
+				09E063E81ECCF52900E24FDE /* __TulsiTestRunner_Debug */,
+				09E063E91ECCF52900E24FDE /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
