@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "96DBBEE4C09134F2D2577F459A0A40C2C8DD0686",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "96DBBEE4C09134F2D2577F459A0A40C2C8DD0686" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F408F431-1B9A-4EBC-9746-84BBD2296E27",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "96DBBEE4C09134F2D2577F459A0A40C2C8DD0686" : "..\/..\/var\/tmp\/_bazel_bkase\/42942e97f31eee1aaf3a03a2d2f50ffc\/execroot\/debugging-tulsi-broken"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FullBazelIsolated",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FullBazelIsolated.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bkase\/debugging-tulsi-broken.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96DBBEE4C09134F2D2577F459A0A40C2C8DD0686"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bkase\/debugging-tulsi-broken.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96DBBEE4C09134F2D2577F459A0A40C2C8DD0686"
+    }
+  ]
+}

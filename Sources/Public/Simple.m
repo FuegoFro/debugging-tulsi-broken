@@ -1,10 +1,14 @@
 #import "Simple.h"
+#import "PINFuture.h"
 
 @implementation Simple
 
 +(void)beSimple
 {
-  NSLog(@"Hello world");
+  __auto_type future = [PINFuture<NSString *> withValue:@"Hello world"];
+  [future executeOnMainSuccess:^(NSString * _Nonnull value) {
+      NSLog(@"%@", value);
+  } failure:nil];
 }
 
 @end

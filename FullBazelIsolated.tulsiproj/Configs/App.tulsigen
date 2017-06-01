@@ -1,35 +1,36 @@
 {
-  "additionalFilePaths" : [
-    "\/BUILD"
+  "sourceFilters" : [
+    "..\/...",
+    "Sources",
+    "Sources\/Public"
   ],
-  "projectName" : "FullBazelIsolated",
   "buildTargets" : [
     "\/\/:Core",
     "\/\/:FullBazelSample",
     "\/\/:Lib"
   ],
+  "projectName" : "FullBazelIsolated",
   "optionSet" : {
-    "BazelBuildStartupOptionsDebug" : {
-      "p" : "$(inherited)"
-    },
-    "EnvironmentVariables" : {
-      "p" : "$(inherited)"
-    },
-    "CommandlineArguments" : {
+    "BazelBuildOptionsDebug" : {
       "p" : "$(inherited)"
     },
     "BazelBuildStartupOptionsRelease" : {
       "p" : "$(inherited)"
     },
-    "BazelBuildOptionsDebug" : {
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
       "p" : "$(inherited)"
     },
     "BazelBuildOptionsRelease" : {
       "p" : "$(inherited)"
     }
   },
-  "sourceFilters" : [
-    "Sources",
-    "Sources\/Public"
+  "additionalFilePaths" : [
+    "\/BUILD"
   ]
 }

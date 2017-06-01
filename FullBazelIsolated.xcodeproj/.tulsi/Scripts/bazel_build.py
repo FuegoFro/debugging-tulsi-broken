@@ -537,15 +537,10 @@ class BazelBuildBridge(object):
                                               'Utils',
                                               'post_processor')
 
-    self.patch_dsym_binary = os.path.join(self.project_file_path,
+    self.patch_dsym_script = os.path.join(self.project_file_path,
                                               '.tulsi',
-                                              'Utils',
+                                              'Scripts',
                                               'patchDsym.sh')
-
-    self.dwarfpatcher_binary = os.path.join(self.project_file_path,
-                                              '.tulsi',
-                                              'Utils',
-                                              'dwarfpatcher')
 
     if self.codesigning_allowed:
       self.runner_entitlements_template = os.path.join(self.project_file_path,
@@ -600,6 +595,13 @@ class BazelBuildBridge(object):
     if parser.install_generated_artifacts:
       timer = Timer('Installing artifacts', 'installing_artifacts').Start()
       exit_code = self._InstallArtifact(outputs)
+      timer.End()
+      if exit_code:
+        return exit_code
+
+      timer = Timer('Installing generated headers',
+                    'installing_generated_headers').Start()
+      exit_code = self._InstallGeneratedHeaders(outputs)
       timer.End()
       if exit_code:
         return exit_code
@@ -719,6 +721,10 @@ class BazelBuildBridge(object):
         output_line = '%s warning: %s' % (match.group(1), match.group(2))
       return output_line
 
+    def ExtractOutputs(output_line):
+      if output_line.startswith('>>>') and output_line.endswith('.tulsiouts'):
+        return output_line[3:]
+
     patch_xcode_parsable_line = PatchBazelWarningStatements
     if self.main_group_path != self.project_dir:
       # Match (likely) filename:line_number: lines.
@@ -750,9 +756,9 @@ class BazelBuildBridge(object):
         # >>> marks the start of an aspect output location.
         # .tulsiouts files contin build output locations
         # TODO(b/35322727): Use BEP instead of stderr output.
-        if (complete_line.startswith('>>>')
-            and complete_line.endswith('.tulsiouts\n')):
-          output_locations.append(complete_line[3:-1])
+        output_path = ExtractOutputs(complete_line.strip())
+        if output_path:
+          output_locations.append(output_path)
         else:
           line = patch_xcode_parsable_line(complete_line)
         linebuf = ''
@@ -764,7 +770,11 @@ class BazelBuildBridge(object):
     output = linebuf + output
 
     for line in output.split('\n'):
-      line = patch_xcode_parsable_line(line)
+      output_path = ExtractOutputs(line)
+      if output_path:
+        output_locations.append(output_path)
+      else:
+        line = patch_xcode_parsable_line(line)
       print line
 
     return process.returncode, output_locations
@@ -873,6 +883,32 @@ class BazelBuildBridge(object):
                        xcode_artifact_path)
 
     return 0
+
+  def _InstallGeneratedHeaders(self, output_files):
+    for f in output_files:
+      data = json.load(open(f))
+      if 'generated_sources' not in data:
+        continue
+
+      for gs in data['generated_sources']:
+        real_path, link_path = gs
+        src = os.path.join(self.bazel_build_workspace_root, real_path)
+
+        # The /x/x/ part is here to match the number of directory components
+        # between tulsi root and bazel root. See tulsi_aspects.bzl for futher
+        # explanation.
+        dst = os.path.join(self.workspace_root, 'tulsi-includes/x/x/',
+                           link_path)
+        self._PrintVerbose('Symlinking %s to %s' % (src, dst), 2)
+
+        dst_dir = os.path.split(dst)[0]
+        if not os.path.exists(dst_dir):
+          os.makedirs(dst_dir)
+
+        if os.path.exists(dst):
+          os.unlink(dst)
+
+        os.symlink(src, dst)
 
   def _CopyBundle(self, source_path, full_source_path, output_path):
     """Copies the given bundle to the given expected output path."""
@@ -1417,7 +1453,7 @@ class BazelBuildBridge(object):
       os.chmod(binary_path, 0755)
 
     for binary_path in binaries:
-        args = [self.patch_dsym_binary, self.dwarfpatcher_binary, binary_path, self.workspace_root, self.bazel_build_workspace_root]
+        args = [self.patch_dsym_script, self.post_processor_binary, binary_path, self.workspace_root, self.bazel_build_workspace_root]
 
         self._PrintVerbose('Patching %r -> %r' % (self.bazel_build_workspace_root,
                                                   self.workspace_root), 1)

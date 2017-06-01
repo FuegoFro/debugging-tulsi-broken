@@ -7,7 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6AF494708C959B200000000 /* PINFuture+ChainSideEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C2808C959B200000000 /* PINFuture+ChainSideEffect.m */; };
+		E6AF49470B36405200000000 /* PINFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C280B36405200000000 /* PINFuture.m */; };
+		E6AF49471261CE6200000000 /* PINOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C281261CE6200000000 /* PINOnce.m */; };
+		E6AF494714396DDA00000000 /* PINFuture+Generated.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C2814396DDA00000000 /* PINFuture+Generated.m */; };
+		E6AF49471BFF6D3200000000 /* NSURLSession+PINFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C281BFF6D3200000000 /* NSURLSession+PINFuture.m */; };
+		E6AF49471D7D927200000000 /* ALAssetsLibrary+PINFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C281D7D927200000000 /* ALAssetsLibrary+PINFuture.m */; };
+		E6AF494726B6584000000000 /* PINFutureMap+FlatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C2826B6584000000000 /* PINFutureMap+FlatMap.m */; };
+		E6AF49472723000400000000 /* PINTask+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C282723000400000000 /* PINTask+Cache.m */; };
+		E6AF4947363FF46C00000000 /* PINPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28363FF46C00000000 /* PINPair.m */; };
+		E6AF49473D17683C00000000 /* PINResult2.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C283D17683C00000000 /* PINResult2.m */; };
+		E6AF4947406DF04600000000 /* PINTask+DoAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28406DF04600000000 /* PINTask+DoAsync.m */; };
+		E6AF49474468B4E400000000 /* PINTaskMap+MapToValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C284468B4E400000000 /* PINTaskMap+MapToValue.m */; };
+		E6AF49474746795A00000000 /* PINTaskMap+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C284746795A00000000 /* PINTaskMap+Map.m */; };
+		E6AF4947480D121E00000000 /* ALAssetsLibrary+PINTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28480D121E00000000 /* ALAssetsLibrary+PINTask.m */; };
+		E6AF49474CD99A3C00000000 /* PINTaskMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C284CD99A3C00000000 /* PINTaskMap.m */; };
+		E6AF49475770B21000000000 /* PINFutureMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C285770B21000000000 /* PINFutureMap.m */; };
+		E6AF4947584868A200000000 /* PINFutureAndCancelToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28584868A200000000 /* PINFutureAndCancelToken.m */; };
+		E6AF4947654BA7BC00000000 /* PINTask+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28654BA7BC00000000 /* PINTask+Do.m */; };
+		E6AF49476A96EB5E00000000 /* PHImageManager+PINTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C286A96EB5E00000000 /* PHImageManager+PINTask.m */; };
 		E6AF49476AB5C85800000000 /* Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C286AB5C85800000000 /* Simple.m */; };
+		E6AF49476CDE5FF000000000 /* PINCancelToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C286CDE5FF000000000 /* PINCancelToken.m */; };
+		E6AF49478606ED9C00000000 /* PINFuture+FlatMapError.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C288606ED9C00000000 /* PINFuture+FlatMapError.m */; };
+		E6AF494788960A7A00000000 /* PINFuture+MapToValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C2888960A7A00000000 /* PINFuture+MapToValue.m */; };
+		E6AF49479929487E00000000 /* PINTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C289929487E00000000 /* PINTask.m */; };
+		E6AF49479A28870800000000 /* PINNSURLSessionDataTaskResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C289A28870800000000 /* PINNSURLSessionDataTaskResult.m */; };
+		E6AF4947A387965A00000000 /* PINResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28A387965A00000000 /* PINResult.m */; };
+		E6AF4947A7C9E06C00000000 /* PINTaskMap+FlatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28A7C9E06C00000000 /* PINTaskMap+FlatMap.m */; };
+		E6AF4947AA8899DE00000000 /* NSURLSession+PINTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28AA8899DE00000000 /* NSURLSession+PINTask.m */; };
+		E6AF4947B01910F200000000 /* PINFuture+Completion.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28B01910F200000000 /* PINFuture+Completion.m */; };
+		E6AF4947B277B5FE00000000 /* PINExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28B277B5FE00000000 /* PINExecutor.m */; };
+		E6AF4947B6B9CB8E00000000 /* PINDispatchProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28B6B9CB8E00000000 /* PINDispatchProxy.m */; };
+		E6AF4947C0A86F2000000000 /* PINFuture+GatherAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28C0A86F2000000000 /* PINFuture+GatherAll.m */; };
+		E6AF4947C6F7D08E00000000 /* PINTask+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28C6F7D08E00000000 /* PINTask+All.m */; };
+		E6AF4947CA9CAFF400000000 /* PINResultFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28CA9CAFF400000000 /* PINResultFailure.m */; };
+		E6AF4947D899415E00000000 /* PINPHImageManagerImageDataResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28D899415E00000000 /* PINPHImageManagerImageDataResult.m */; };
+		E6AF4947DA1F929A00000000 /* PINFuture+Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28DA1F929A00000000 /* PINFuture+Dispatch.m */; };
+		E6AF4947DDDDF6B200000000 /* PHImageManager+PINFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28DDDDF6B200000000 /* PHImageManager+PINFuture.m */; };
+		E6AF4947E471A39A00000000 /* PINResultSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28E471A39A00000000 /* PINResultSuccess.m */; };
+		E6AF4947F0C0908A00000000 /* PINFuture+MapError.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28F0C0908A00000000 /* PINFuture+MapError.m */; };
+		E6AF4947FD0A50AE00000000 /* PINFutureMap+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D68C28FD0A50AE00000000 /* PINFutureMap+Map.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -17,17 +56,104 @@
 			proxyType = 1;
 			remoteGlobalIDString = ECCC95946921D83400000000;
 		};
+		81936672FA3B5C8700000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7BD0EAF3B97AE600000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D31C5E6FA3B5C8600000000;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43D68C2808C959B200000000 /* PINFuture+ChainSideEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+ChainSideEffect.m"; sourceTree = "<group>"; };
+		43D68C280B36104400000000 /* PINFuture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINFuture.h; sourceTree = "<group>"; };
+		43D68C280B36405200000000 /* PINFuture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINFuture.m; sourceTree = "<group>"; };
+		43D68C2811FF6D2400000000 /* NSURLSession+PINFuture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+PINFuture.h"; sourceTree = "<group>"; };
+		43D68C281261CE6200000000 /* PINOnce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINOnce.m; sourceTree = "<group>"; };
+		43D68C281261DA5400000000 /* PINOnce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINOnce.h; sourceTree = "<group>"; };
+		43D68C2814396DDA00000000 /* PINFuture+Generated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+Generated.m"; sourceTree = "<group>"; };
+		43D68C2815F96DCC00000000 /* PINFuture+Generated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+Generated.h"; sourceTree = "<group>"; };
+		43D68C281BFF6D3200000000 /* NSURLSession+PINFuture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+PINFuture.m"; sourceTree = "<group>"; };
+		43D68C281D7D927200000000 /* ALAssetsLibrary+PINFuture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+PINFuture.m"; sourceTree = "<group>"; };
+		43D68C282448689400000000 /* PINFutureAndCancelToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINFutureAndCancelToken.h; sourceTree = "<group>"; };
+		43D68C28253627BA00000000 /* PINFutureMap+FlatMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFutureMap+FlatMap.h"; sourceTree = "<group>"; };
+		43D68C2826B6584000000000 /* PINFutureMap+FlatMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFutureMap+FlatMap.m"; sourceTree = "<group>"; };
+		43D68C282723000400000000 /* PINTask+Cache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINTask+Cache.m"; sourceTree = "<group>"; };
+		43D68C282728007E00000000 /* PINTask+Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTask+Cache.h"; sourceTree = "<group>"; };
 		43D68C2830A12EFC00000000 /* lib_idx_Core_03820109.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_Core_03820109.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D68C28363FC06600000000 /* PINPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINPair.h; sourceTree = "<group>"; };
+		43D68C28363FF46C00000000 /* PINPair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINPair.m; sourceTree = "<group>"; };
+		43D68C283D17683C00000000 /* PINResult2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINResult2.m; sourceTree = "<group>"; };
+		43D68C283D17C83600000000 /* PINResult2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINResult2.h; sourceTree = "<group>"; };
+		43D68C28406DF04600000000 /* PINTask+DoAsync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINTask+DoAsync.m"; sourceTree = "<group>"; };
+		43D68C284079FFB800000000 /* PINTask+DoAsync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTask+DoAsync.h"; sourceTree = "<group>"; };
+		43D68C284168B4DE00000000 /* PINTaskMap+MapToValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTaskMap+MapToValue.h"; sourceTree = "<group>"; };
+		43D68C284468B4E400000000 /* PINTaskMap+MapToValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINTaskMap+MapToValue.m"; sourceTree = "<group>"; };
+		43D68C284746795A00000000 /* PINTaskMap+Map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINTaskMap+Map.m"; sourceTree = "<group>"; };
+		43D68C284748794C00000000 /* PINTaskMap+Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTaskMap+Map.h"; sourceTree = "<group>"; };
+		43D68C28480D121E00000000 /* ALAssetsLibrary+PINTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+PINTask.m"; sourceTree = "<group>"; };
+		43D68C284CD99A3C00000000 /* PINTaskMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINTaskMap.m; sourceTree = "<group>"; };
+		43D68C284CDAFA3600000000 /* PINTaskMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINTaskMap.h; sourceTree = "<group>"; };
+		43D68C28540D121000000000 /* ALAssetsLibrary+PINTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+PINTask.h"; sourceTree = "<group>"; };
+		43D68C285770B21000000000 /* PINFutureMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINFutureMap.m; sourceTree = "<group>"; };
+		43D68C285773320A00000000 /* PINFutureMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINFutureMap.h; sourceTree = "<group>"; };
+		43D68C28584868A200000000 /* PINFutureAndCancelToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINFutureAndCancelToken.m; sourceTree = "<group>"; };
+		43D68C286096EB5000000000 /* PHImageManager+PINTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHImageManager+PINTask.h"; sourceTree = "<group>"; };
+		43D68C28654BA7BC00000000 /* PINTask+Do.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINTask+Do.m"; sourceTree = "<group>"; };
+		43D68C28655407B600000000 /* PINTask+Do.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTask+Do.h"; sourceTree = "<group>"; };
+		43D68C286A96EB5E00000000 /* PHImageManager+PINTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PHImageManager+PINTask.m"; sourceTree = "<group>"; };
 		43D68C286AB5C85800000000 /* Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple.m; sourceTree = "<group>"; };
 		43D68C286AB5DE5200000000 /* Simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple.h; sourceTree = "<group>"; };
+		43D68C286CDE5FF000000000 /* PINCancelToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINCancelToken.m; sourceTree = "<group>"; };
+		43D68C286CE05FEA00000000 /* PINCancelToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCancelToken.h; sourceTree = "<group>"; };
 		43D68C28705159EA00000000 /* FullBazelSample-MergedInfo.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; path = "FullBazelSample-MergedInfo.plist"; sourceTree = "<group>"; };
+		43D68C288606ED9C00000000 /* PINFuture+FlatMapError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+FlatMapError.m"; sourceTree = "<group>"; };
+		43D68C2887160A6C00000000 /* PINFuture+MapToValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+MapToValue.h"; sourceTree = "<group>"; };
+		43D68C2888960A7A00000000 /* PINFuture+MapToValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+MapToValue.m"; sourceTree = "<group>"; };
+		43D68C288E9910E400000000 /* PINFuture+Completion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+Completion.h"; sourceTree = "<group>"; };
+		43D68C289929247000000000 /* PINTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINTask.h; sourceTree = "<group>"; };
+		43D68C289929487E00000000 /* PINTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINTask.m; sourceTree = "<group>"; };
+		43D68C289A28870200000000 /* PINNSURLSessionDataTaskResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINNSURLSessionDataTaskResult.h; sourceTree = "<group>"; };
+		43D68C289A28870800000000 /* PINNSURLSessionDataTaskResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINNSURLSessionDataTaskResult.m; sourceTree = "<group>"; };
+		43D68C289C06ED9600000000 /* PINFuture+FlatMapError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+FlatMapError.h"; sourceTree = "<group>"; };
+		43D68C289C7D2ECC00000000 /* PINDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINDefines.h; sourceTree = "<group>"; };
+		43D68C28A380264C00000000 /* PINResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINResult.h; sourceTree = "<group>"; };
+		43D68C28A387965A00000000 /* PINResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINResult.m; sourceTree = "<group>"; };
+		43D68C28A469E06600000000 /* PINTaskMap+FlatMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTaskMap+FlatMap.h"; sourceTree = "<group>"; };
+		43D68C28A7C9E06C00000000 /* PINTaskMap+FlatMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINTaskMap+FlatMap.m"; sourceTree = "<group>"; };
+		43D68C28A90899D000000000 /* NSURLSession+PINTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+PINTask.h"; sourceTree = "<group>"; };
 		43D68C28A956668800000000 /* FullBazelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = FullBazelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D68C28AA8899DE00000000 /* NSURLSession+PINTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+PINTask.m"; sourceTree = "<group>"; };
+		43D68C28AD7D926400000000 /* ALAssetsLibrary+PINFuture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+PINFuture.h"; sourceTree = "<group>"; };
+		43D68C28B01910F200000000 /* PINFuture+Completion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+Completion.m"; sourceTree = "<group>"; };
+		43D68C28B27175F000000000 /* PINExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINExecutor.h; sourceTree = "<group>"; };
+		43D68C28B277B5FE00000000 /* PINExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINExecutor.m; sourceTree = "<group>"; };
+		43D68C28B5DDF6A400000000 /* PHImageManager+PINFuture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHImageManager+PINFuture.h"; sourceTree = "<group>"; };
+		43D68C28B6B9CB8E00000000 /* PINDispatchProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINDispatchProxy.m; sourceTree = "<group>"; };
+		43D68C28B761CB8000000000 /* PINDispatchProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINDispatchProxy.h; sourceTree = "<group>"; };
 		43D68C28B7EA446800000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; };
+		43D68C28C0A86F2000000000 /* PINFuture+GatherAll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+GatherAll.m"; sourceTree = "<group>"; };
+		43D68C28C6F0908000000000 /* PINTask+All.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINTask+All.h"; sourceTree = "<group>"; };
+		43D68C28C6F7D08E00000000 /* PINTask+All.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINTask+All.m"; sourceTree = "<group>"; };
+		43D68C28CA9CAFF400000000 /* PINResultFailure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINResultFailure.m; sourceTree = "<group>"; };
+		43D68C28CB44AFEE00000000 /* PINResultFailure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINResultFailure.h; sourceTree = "<group>"; };
 		43D68C28D78E298800000000 /* libLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D68C28D855021800000000 /* lib_idx_lib_13E428A0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib_idx_lib_13E428A0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D68C28D89940A800000000 /* PINPHImageManagerImageDataResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINPHImageManagerImageDataResult.h; sourceTree = "<group>"; };
+		43D68C28D899415E00000000 /* PINPHImageManagerImageDataResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINPHImageManagerImageDataResult.m; sourceTree = "<group>"; };
+		43D68C28D8C959A400000000 /* PINFuture+ChainSideEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+ChainSideEffect.h"; sourceTree = "<group>"; };
+		43D68C28DA1F929A00000000 /* PINFuture+Dispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+Dispatch.m"; sourceTree = "<group>"; };
 		43D68C28DA7A48F200000000 /* libCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D68C28DABF928C00000000 /* PINFuture+Dispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+Dispatch.h"; sourceTree = "<group>"; };
+		43D68C28DDDDF6B200000000 /* PHImageManager+PINFuture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PHImageManager+PINFuture.m"; sourceTree = "<group>"; };
+		43D68C28DE686F1A00000000 /* PINFuture+GatherAll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+GatherAll.h"; sourceTree = "<group>"; };
+		43D68C28E419A38C00000000 /* PINResultSuccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINResultSuccess.h; sourceTree = "<group>"; };
+		43D68C28E471A39A00000000 /* PINResultSuccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINResultSuccess.m; sourceTree = "<group>"; };
+		43D68C28F0C0908A00000000 /* PINFuture+MapError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFuture+MapError.m"; sourceTree = "<group>"; };
+		43D68C28F16090FC00000000 /* PINFuture+MapError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFuture+MapError.h"; sourceTree = "<group>"; };
+		43D68C28F8D1DD6000000000 /* PINTuple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINTuple.h; sourceTree = "<group>"; };
+		43D68C28FD0A50AE00000000 /* PINFutureMap+Map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PINFutureMap+Map.m"; sourceTree = "<group>"; };
+		43D68C28FD3250A000000000 /* PINFutureMap+Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINFutureMap+Map.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -47,8 +173,32 @@
 				43D68C28DA7A48F200000000 /* libCore.a */,
 				43D68C28D78E298800000000 /* libLib.a */,
 				43D68C2830A12EFC00000000 /* lib_idx_Core_03820109.a */,
+				43D68C28D855021800000000 /* lib_idx_lib_13E428A0.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		966FB6DE49E05A6200000000 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				43D68C28AD7D926400000000 /* ALAssetsLibrary+PINFuture.h */,
+				43D68C281D7D927200000000 /* ALAssetsLibrary+PINFuture.m */,
+				43D68C28540D121000000000 /* ALAssetsLibrary+PINTask.h */,
+				43D68C28480D121E00000000 /* ALAssetsLibrary+PINTask.m */,
+				43D68C2811FF6D2400000000 /* NSURLSession+PINFuture.h */,
+				43D68C281BFF6D3200000000 /* NSURLSession+PINFuture.m */,
+				43D68C28A90899D000000000 /* NSURLSession+PINTask.h */,
+				43D68C28AA8899DE00000000 /* NSURLSession+PINTask.m */,
+				43D68C28B5DDF6A400000000 /* PHImageManager+PINFuture.h */,
+				43D68C28DDDDF6B200000000 /* PHImageManager+PINFuture.m */,
+				43D68C286096EB5000000000 /* PHImageManager+PINTask.h */,
+				43D68C286A96EB5E00000000 /* PHImageManager+PINTask.m */,
+				43D68C289A28870200000000 /* PINNSURLSessionDataTaskResult.h */,
+				43D68C289A28870800000000 /* PINNSURLSessionDataTaskResult.m */,
+				43D68C28D89940A800000000 /* PINPHImageManagerImageDataResult.h */,
+				43D68C28D899415E00000000 /* PINPHImageManagerImageDataResult.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		966FB6DE6D8AAE9400000000 /* Sources */ = {
@@ -76,15 +226,97 @@
 			path = Public;
 			sourceTree = "<group>";
 		};
+		966FB6DEBA1670E800000000 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				966FB6DE49E05A6200000000 /* Categories */,
+				43D68C286CE05FEA00000000 /* PINCancelToken.h */,
+				43D68C286CDE5FF000000000 /* PINCancelToken.m */,
+				43D68C289C7D2ECC00000000 /* PINDefines.h */,
+				43D68C28B761CB8000000000 /* PINDispatchProxy.h */,
+				43D68C28B6B9CB8E00000000 /* PINDispatchProxy.m */,
+				43D68C28B27175F000000000 /* PINExecutor.h */,
+				43D68C28B277B5FE00000000 /* PINExecutor.m */,
+				43D68C28D8C959A400000000 /* PINFuture+ChainSideEffect.h */,
+				43D68C2808C959B200000000 /* PINFuture+ChainSideEffect.m */,
+				43D68C288E9910E400000000 /* PINFuture+Completion.h */,
+				43D68C28B01910F200000000 /* PINFuture+Completion.m */,
+				43D68C28DABF928C00000000 /* PINFuture+Dispatch.h */,
+				43D68C28DA1F929A00000000 /* PINFuture+Dispatch.m */,
+				43D68C289C06ED9600000000 /* PINFuture+FlatMapError.h */,
+				43D68C288606ED9C00000000 /* PINFuture+FlatMapError.m */,
+				43D68C28DE686F1A00000000 /* PINFuture+GatherAll.h */,
+				43D68C28C0A86F2000000000 /* PINFuture+GatherAll.m */,
+				43D68C2815F96DCC00000000 /* PINFuture+Generated.h */,
+				43D68C2814396DDA00000000 /* PINFuture+Generated.m */,
+				43D68C28F16090FC00000000 /* PINFuture+MapError.h */,
+				43D68C28F0C0908A00000000 /* PINFuture+MapError.m */,
+				43D68C2887160A6C00000000 /* PINFuture+MapToValue.h */,
+				43D68C2888960A7A00000000 /* PINFuture+MapToValue.m */,
+				43D68C280B36104400000000 /* PINFuture.h */,
+				43D68C280B36405200000000 /* PINFuture.m */,
+				43D68C282448689400000000 /* PINFutureAndCancelToken.h */,
+				43D68C28584868A200000000 /* PINFutureAndCancelToken.m */,
+				43D68C28253627BA00000000 /* PINFutureMap+FlatMap.h */,
+				43D68C2826B6584000000000 /* PINFutureMap+FlatMap.m */,
+				43D68C28FD3250A000000000 /* PINFutureMap+Map.h */,
+				43D68C28FD0A50AE00000000 /* PINFutureMap+Map.m */,
+				43D68C285773320A00000000 /* PINFutureMap.h */,
+				43D68C285770B21000000000 /* PINFutureMap.m */,
+				43D68C281261DA5400000000 /* PINOnce.h */,
+				43D68C281261CE6200000000 /* PINOnce.m */,
+				43D68C28363FC06600000000 /* PINPair.h */,
+				43D68C28363FF46C00000000 /* PINPair.m */,
+				43D68C28A380264C00000000 /* PINResult.h */,
+				43D68C28A387965A00000000 /* PINResult.m */,
+				43D68C283D17C83600000000 /* PINResult2.h */,
+				43D68C283D17683C00000000 /* PINResult2.m */,
+				43D68C28CB44AFEE00000000 /* PINResultFailure.h */,
+				43D68C28CA9CAFF400000000 /* PINResultFailure.m */,
+				43D68C28E419A38C00000000 /* PINResultSuccess.h */,
+				43D68C28E471A39A00000000 /* PINResultSuccess.m */,
+				43D68C28C6F0908000000000 /* PINTask+All.h */,
+				43D68C28C6F7D08E00000000 /* PINTask+All.m */,
+				43D68C282728007E00000000 /* PINTask+Cache.h */,
+				43D68C282723000400000000 /* PINTask+Cache.m */,
+				43D68C28655407B600000000 /* PINTask+Do.h */,
+				43D68C28654BA7BC00000000 /* PINTask+Do.m */,
+				43D68C284079FFB800000000 /* PINTask+DoAsync.h */,
+				43D68C28406DF04600000000 /* PINTask+DoAsync.m */,
+				43D68C289929247000000000 /* PINTask.h */,
+				43D68C289929487E00000000 /* PINTask.m */,
+				43D68C28A469E06600000000 /* PINTaskMap+FlatMap.h */,
+				43D68C28A7C9E06C00000000 /* PINTaskMap+FlatMap.m */,
+				43D68C284748794C00000000 /* PINTaskMap+Map.h */,
+				43D68C284746795A00000000 /* PINTaskMap+Map.m */,
+				43D68C284168B4DE00000000 /* PINTaskMap+MapToValue.h */,
+				43D68C284468B4E400000000 /* PINTaskMap+MapToValue.m */,
+				43D68C284CDAFA3600000000 /* PINTaskMap.h */,
+				43D68C284CD99A3C00000000 /* PINTaskMap.m */,
+				43D68C28F8D1DD6000000000 /* PINTuple.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		966FB6DEE342F69A00000000 /* mainGroup */ = {
 			isa = PBXGroup;
 			children = (
 				966FB6DE11BB9BD200000000 /*  */,
+				966FB6DEF52D91B900000000 /* @PINFuture */,
 				966FB6DE2BD1037D00000000 /* Products */,
 				966FB6DE6D8AAE9400000000 /* Sources */,
 			);
 			name = mainGroup;
 			sourceTree = SOURCE_ROOT;
+		};
+		966FB6DEF52D91B900000000 /* @PINFuture */ = {
+			isa = PBXGroup;
+			children = (
+				966FB6DEBA1670E800000000 /* Classes */,
+			);
+			name = "@PINFuture";
+			path = "/var/tmp/_bazel_bkase/42942e97f31eee1aaf3a03a2d2f50ffc/execroot/debugging-tulsi-broken/external/PINFuture";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -116,6 +348,7 @@
 			);
 			dependencies = (
 				4DAD0B426921D83500000000 /* PBXTargetDependency */,
+				4DAD0B42FA3B5C8700000000 /* PBXTargetDependency */,
 			);
 			name = _idx_Core_03820109;
 			productName = _idx_Core_03820109;
@@ -170,6 +403,22 @@
 			productReference = 43D68C28A956668800000000 /* FullBazelSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3D31C5E6FA3B5C8600000000 /* _idx_lib_13E428A0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4755837383E51100000000 /* Build configuration list for PBXNativeTarget "_idx_lib_13E428A0" */;
+			buildPhases = (
+				605793E20000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAD0B426921D83500000000 /* PBXTargetDependency */,
+			);
+			name = _idx_lib_13E428A0;
+			productName = _idx_lib_13E428A0;
+			productReference = 43D68C28D855021800000000 /* lib_idx_lib_13E428A0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +444,7 @@
 				3D31C5E62DB75F9600000000 /* Lib */,
 				ECCC95946921D83400000000 /* _bazel_clean_ */,
 				3D31C5E6077E036A00000000 /* _idx_Core_03820109 */,
+				3D31C5E6FA3B5C8600000000 /* _idx_lib_13E428A0 */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "set -e\n\nexport TULSI_USE_DSYM=YES\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:FullBazelSample --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --bazel_package_path \"%workspace%\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
+			shellScript = "set -e\n\nTULSI_USE_DSYM=YES exec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //:FullBazelSample --bazel \"/Users/bkase/code/ios/Scripts/bazel/lib/bazel/bin/bazel\" --bazel_bin_path \"bazel-bin\" --bazel_package_path \"%workspace%\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
 		};
 		84B422717070468800000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -250,6 +500,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		605793E20000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E6AF49471D7D927200000000 /* ALAssetsLibrary+PINFuture.m in Sources */,
+				E6AF4947480D121E00000000 /* ALAssetsLibrary+PINTask.m in Sources */,
+				E6AF49471BFF6D3200000000 /* NSURLSession+PINFuture.m in Sources */,
+				E6AF4947AA8899DE00000000 /* NSURLSession+PINTask.m in Sources */,
+				E6AF4947DDDDF6B200000000 /* PHImageManager+PINFuture.m in Sources */,
+				E6AF49476A96EB5E00000000 /* PHImageManager+PINTask.m in Sources */,
+				E6AF49479A28870800000000 /* PINNSURLSessionDataTaskResult.m in Sources */,
+				E6AF4947D899415E00000000 /* PINPHImageManagerImageDataResult.m in Sources */,
+				E6AF49476CDE5FF000000000 /* PINCancelToken.m in Sources */,
+				E6AF4947B6B9CB8E00000000 /* PINDispatchProxy.m in Sources */,
+				E6AF4947B277B5FE00000000 /* PINExecutor.m in Sources */,
+				E6AF494708C959B200000000 /* PINFuture+ChainSideEffect.m in Sources */,
+				E6AF4947B01910F200000000 /* PINFuture+Completion.m in Sources */,
+				E6AF4947DA1F929A00000000 /* PINFuture+Dispatch.m in Sources */,
+				E6AF49478606ED9C00000000 /* PINFuture+FlatMapError.m in Sources */,
+				E6AF4947C0A86F2000000000 /* PINFuture+GatherAll.m in Sources */,
+				E6AF494714396DDA00000000 /* PINFuture+Generated.m in Sources */,
+				E6AF4947F0C0908A00000000 /* PINFuture+MapError.m in Sources */,
+				E6AF494788960A7A00000000 /* PINFuture+MapToValue.m in Sources */,
+				E6AF49470B36405200000000 /* PINFuture.m in Sources */,
+				E6AF4947584868A200000000 /* PINFutureAndCancelToken.m in Sources */,
+				E6AF494726B6584000000000 /* PINFutureMap+FlatMap.m in Sources */,
+				E6AF4947FD0A50AE00000000 /* PINFutureMap+Map.m in Sources */,
+				E6AF49475770B21000000000 /* PINFutureMap.m in Sources */,
+				E6AF49471261CE6200000000 /* PINOnce.m in Sources */,
+				E6AF4947363FF46C00000000 /* PINPair.m in Sources */,
+				E6AF4947A387965A00000000 /* PINResult.m in Sources */,
+				E6AF49473D17683C00000000 /* PINResult2.m in Sources */,
+				E6AF4947CA9CAFF400000000 /* PINResultFailure.m in Sources */,
+				E6AF4947E471A39A00000000 /* PINResultSuccess.m in Sources */,
+				E6AF4947C6F7D08E00000000 /* PINTask+All.m in Sources */,
+				E6AF49472723000400000000 /* PINTask+Cache.m in Sources */,
+				E6AF4947654BA7BC00000000 /* PINTask+Do.m in Sources */,
+				E6AF4947406DF04600000000 /* PINTask+DoAsync.m in Sources */,
+				E6AF49479929487E00000000 /* PINTask.m in Sources */,
+				E6AF4947A7C9E06C00000000 /* PINTaskMap+FlatMap.m in Sources */,
+				E6AF49474746795A00000000 /* PINTaskMap+Map.m in Sources */,
+				E6AF49474468B4E400000000 /* PINTaskMap+MapToValue.m in Sources */,
+				E6AF49474CD99A3C00000000 /* PINTaskMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -258,10 +554,15 @@
 			target = ECCC95946921D83400000000 /* _bazel_clean_ */;
 			targetProxy = 819366726921D83500000000 /* PBXContainerItemProxy */;
 		};
+		4DAD0B42FA3B5C8700000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D31C5E6FA3B5C8600000000 /* _idx_lib_13E428A0 */;
+			targetProxy = 81936672FA3B5C8700000000 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09E063E61ECCF52900E24FDE /* Debug */ = {
+		090B85E21EDF950400034C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -271,7 +572,7 @@
 			};
 			name = Debug;
 		};
-		09E063E71ECCF52900E24FDE /* Release */ = {
+		090B85E31EDF950400034C76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -280,31 +581,45 @@
 			};
 			name = Release;
 		};
-		09E063E81ECCF52900E24FDE /* __TulsiTestRunner_Debug */ = {
+		090B85E41EDF950400034C76 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		09E063E91ECCF52900E24FDE /* __TulsiTestRunner_Release */ = {
+		090B85E51EDF950400034C76 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _bazel_clean_;
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		09E063EA1ECCF52900E24FDE /* __TulsiTestRunner_Debug */ = {
+		090B85E61EDF950400034C76 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_Core_03820109;
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		09E063EB1ECCF52900E24FDE /* __TulsiTestRunner_Release */ = {
+		090B85E71EDF950400034C76 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = _idx_Core_03820109;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		090B85E81EDF950400034C76 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_lib_13E428A0;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		090B85E91EDF950400034C76 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = _idx_lib_13E428A0;
 			};
 			name = __TulsiTestRunner_Release;
 		};
@@ -335,12 +650,13 @@
 					"$(TULSI_BWRS)",
 					"$(TULSI_WR)/bazel-bin",
 					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_WR)/tulsi-includes/x/x",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
+				TULSI_BWRS = "${TULSI_WR}/bazel-debugging-tulsi-broken";
 				TULSI_PROJECT = FullBazelIsolated;
-				TULSI_VERSION = 0.4.155646550.20170510;
+				TULSI_VERSION = 0.4.156997993.20170524;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = Debug;
@@ -355,7 +671,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
@@ -418,15 +734,55 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(TULSI_BWRS)/Classes",
+					"$(TULSI_WR)/bazel-bin/Classes",
+					"$(TULSI_WR)/bazel-genfiles/Classes",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes",
+					"$(TULSI_BWRS)/Classes/Categories",
+					"$(TULSI_WR)/bazel-bin/Classes/Categories",
+					"$(TULSI_WR)/bazel-genfiles/Classes/Categories",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes/Categories",
 					"$(TULSI_BWRS)/tools/cpp/gcc3",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_CFLAGS = (
 					"-D__DATE__=\"redacted\"",
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
 				PRODUCT_NAME = _idx_Core_03820109;
+				SDKROOT = iphonesimulator;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALID_ARCHS = x86_64;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		44936BD67EED3C4D00000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_BWRS)/Classes",
+					"$(TULSI_WR)/bazel-bin/Classes",
+					"$(TULSI_WR)/bazel-genfiles/Classes",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes",
+					"$(TULSI_BWRS)/Classes/Categories",
+					"$(TULSI_WR)/bazel-bin/Classes/Categories",
+					"$(TULSI_WR)/bazel-genfiles/Classes/Categories",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes/Categories",
+					"$(TULSI_BWRS)/tools/cpp/gcc3",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-w",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_lib_13E428A0;
 				SDKROOT = iphonesimulator;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VALID_ARCHS = x86_64;
@@ -461,13 +817,14 @@
 					"$(TULSI_BWRS)",
 					"$(TULSI_WR)/bazel-bin",
 					"$(TULSI_WR)/bazel-genfiles",
+					"$(TULSI_WR)/tulsi-includes/x/x",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
+				TULSI_BWRS = "${TULSI_WR}/bazel-debugging-tulsi-broken";
 				TULSI_PROJECT = FullBazelIsolated;
 				TULSI_USE_DSYM = YES;
-				TULSI_VERSION = 0.4.155646550.20170510;
+				TULSI_VERSION = 0.4.156997993.20170524;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = Release;
@@ -482,7 +839,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
 				TULSI_BUILD_PATH = "";
@@ -545,15 +902,55 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(TULSI_BWRS)/Classes",
+					"$(TULSI_WR)/bazel-bin/Classes",
+					"$(TULSI_WR)/bazel-genfiles/Classes",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes",
+					"$(TULSI_BWRS)/Classes/Categories",
+					"$(TULSI_WR)/bazel-bin/Classes/Categories",
+					"$(TULSI_WR)/bazel-genfiles/Classes/Categories",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes/Categories",
 					"$(TULSI_BWRS)/tools/cpp/gcc3",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_CFLAGS = (
 					"-D__DATE__=\"redacted\"",
 					"-D__TIMESTAMP__=\"redacted\"",
 					"-D__TIME__=\"redacted\"",
 				);
 				PRODUCT_NAME = _idx_Core_03820109;
+				SDKROOT = iphonesimulator;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALID_ARCHS = x86_64;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		44936BD6A3D45CE900000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TULSI_BWRS)/Classes",
+					"$(TULSI_WR)/bazel-bin/Classes",
+					"$(TULSI_WR)/bazel-genfiles/Classes",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes",
+					"$(TULSI_BWRS)/Classes/Categories",
+					"$(TULSI_WR)/bazel-bin/Classes/Categories",
+					"$(TULSI_WR)/bazel-genfiles/Classes/Categories",
+					"$(TULSI_WR)/tulsi-includes/x/x/Classes/Categories",
+					"$(TULSI_BWRS)/tools/cpp/gcc3",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-w",
+					"-D__DATE__=\"redacted\"",
+					"-D__TIMESTAMP__=\"redacted\"",
+					"-D__TIME__=\"redacted\"",
+				);
+				PRODUCT_NAME = _idx_lib_13E428A0;
 				SDKROOT = iphonesimulator;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VALID_ARCHS = x86_64;
@@ -588,10 +985,13 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				SDKROOT = iphoneos;
-				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "${TULSI_WR}/bazel-debugging-tulsi-broken";
 				TULSI_PROJECT = FullBazelIsolated;
-				TULSI_VERSION = 0.4.155646550.20170510;
+				TULSI_VERSION = 0.4.156997993.20170524;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = __TulsiTestRunner_Debug;
@@ -608,12 +1008,15 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
 				TULSI_USE_DYNAMIC_OUTPUTS = YES;
@@ -640,9 +1043,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.fullbazelsample;
 				PRODUCT_NAME = FullBazelSample;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
 				TULSI_USE_DYNAMIC_OUTPUTS = YES;
@@ -667,8 +1073,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				PRODUCT_NAME = Lib;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = NO;
 				TULSI_USE_DYNAMIC_OUTPUTS = YES;
@@ -704,11 +1113,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				SDKROOT = iphoneos;
-				TULSI_BWRS = "${TULSI_WR}/bazel-FullBazelSample";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "${TULSI_WR}/bazel-debugging-tulsi-broken";
 				TULSI_PROJECT = FullBazelIsolated;
 				TULSI_USE_DSYM = YES;
-				TULSI_VERSION = 0.4.155646550.20170510;
+				TULSI_VERSION = 0.4.156997993.20170524;
 				TULSI_WR = "$(SRCROOT)";
 			};
 			name = __TulsiTestRunner_Release;
@@ -725,12 +1137,15 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
 				TULSI_USE_DYNAMIC_OUTPUTS = YES;
@@ -757,9 +1172,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.fullbazelsample;
 				PRODUCT_NAME = FullBazelSample;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
 				TULSI_USE_DYNAMIC_OUTPUTS = YES;
@@ -784,8 +1202,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-help";
 				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
 				PRODUCT_NAME = Lib;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
 				TULSI_BUILD_PATH = "";
 				TULSI_USE_DSYM = YES;
 				TULSI_USE_DYNAMIC_OUTPUTS = YES;
@@ -808,6 +1229,17 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DE4755837383E51100000000 /* Build configuration list for PBXNativeTarget "_idx_lib_13E428A0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44936BD67EED3C4D00000005 /* Debug */,
+				44936BD6A3D45CE900000005 /* Release */,
+				090B85E81EDF950400034C76 /* __TulsiTestRunner_Debug */,
+				090B85E91EDF950400034C76 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DE4755837FF6A42000000000 /* Build configuration list for PBXProject "FullBazelIsolated" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -824,8 +1256,8 @@
 			buildConfigurations = (
 				44936BD67EED3C4D00000004 /* Debug */,
 				44936BD6A3D45CE900000004 /* Release */,
-				09E063EA1ECCF52900E24FDE /* __TulsiTestRunner_Debug */,
-				09E063EB1ECCF52900E24FDE /* __TulsiTestRunner_Release */,
+				090B85E61EDF950400034C76 /* __TulsiTestRunner_Debug */,
+				090B85E71EDF950400034C76 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -833,10 +1265,10 @@
 		DE475583CA83BF7E00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09E063E61ECCF52900E24FDE /* Debug */,
-				09E063E71ECCF52900E24FDE /* Release */,
-				09E063E81ECCF52900E24FDE /* __TulsiTestRunner_Debug */,
-				09E063E91ECCF52900E24FDE /* __TulsiTestRunner_Release */,
+				090B85E21EDF950400034C76 /* Debug */,
+				090B85E31EDF950400034C76 /* Release */,
+				090B85E41EDF950400034C76 /* __TulsiTestRunner_Debug */,
+				090B85E51EDF950400034C76 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

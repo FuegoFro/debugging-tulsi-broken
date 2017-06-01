@@ -1,5 +1,6 @@
 {
   "sourceFilters" : [
+    "..\/...",
     "Sources",
     "Sources\/Public"
   ],
