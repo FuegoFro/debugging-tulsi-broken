@@ -1,22 +1,37 @@
-## Basic debugging not working in Tulsi
+## CROSSTOOL override seems to not work
 
-Track issue here: https://github.com/bazelbuild/tulsi/issues/16
+Note: I've commented out the osx_tools needed for the crosstool
 
-----
+```python
+[
+    filegroup(
+        name = "osx_tools_" + arch,
+        srcs = [
+#          ":cc_wrapper",
+#          ":libtool",
+#          ":make_hashed_objlist.py",
+#          ":wrapped_clang",
+#          ":xcrunwrapper.sh",
+        ],
+    )
+    for arch in OSX_TOOLS_ARCHS
+]
+```
 
-I created and generated a simple Xcode project (checked in) from HEAD of Tulsi (Version 0.4.155646550.20170510).
+Running however does not fail, the build is using the built-in crosstool:
 
-With Xcode 8.3.2, when running in Debug and a breakpoint on line 7 of "Sources/Public/Simple.m", the breakpoint is not hit
+```bash
+bazel build ':FullBazelSample' --crosstool_top=//local_config_cc:toolchain --apple_crosstool_top=//local_config_cc:toolchain
+```
 
-1. In lldbinit mode (without dsym) (default)
+On:
 
-Even after building, turning off the breakpoint, restarting xcode, then turning it back on and rebuilding.
-
-2. With the dwarfpatcher (with dsym)
-
-![export TULSI_USE_DSYM=YES](img/runscript.png)
-
-In both cases, if I press pause and inspect breakpoints in lldbinit, this breakpoint is not associated with a particular file.
-
-![breakpoint pending](img/pendingbp.png)
+```
+𝝺 bazel version
+Build label: 0.5.0
+Build target: bazel-out/local-fastbuild/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar
+Build time: Fri May 26 12:11:50 2017 (1495800710)
+Build timestamp: 1495800710
+Build timestamp as int: 1495800710
+```
 
