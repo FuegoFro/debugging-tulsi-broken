@@ -43,11 +43,11 @@ cc_toolchain_suite(
     filegroup(
         name = "osx_tools_" + arch,
         srcs = [
-#          ":cc_wrapper",
-#          ":libtool",
-#          ":make_hashed_objlist.py",
-#          ":wrapped_clang",
-#          ":xcrunwrapper.sh",
+          ":cc_wrapper",
+          ":libtool",
+          ":make_hashed_objlist.py",
+          ":wrapped_clang",
+          ":xcrunwrapper.sh",
         ],
     )
     for arch in OSX_TOOLS_ARCHS

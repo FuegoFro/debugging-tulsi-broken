@@ -75,4 +75,6 @@ SDK version pair is not available."
   fi
 fi
 
+echo "HELLO WORLD" 1>&2
+
 exit ${XCRUN_EXITCODE}
