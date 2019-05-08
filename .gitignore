@@ -1,4 +1,6 @@
 bazel-*
 tulsigen-*
+tulsi*
 FullBazelIsolated.xcodeproj/project.xcworkspace/xcuserdata/
-FullBazelIsolated.xcodeproj/xcuserdata/bkase.xcuserdatad/
+FullBazelIsolated.xcodeproj/xcuserdata/
+*.pyc

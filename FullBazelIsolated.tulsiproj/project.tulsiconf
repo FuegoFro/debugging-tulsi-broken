@@ -1,12 +1,17 @@
 {
-  "workspaceRoot" : "..",
-  "projectName" : "FullBazelIsolated",
   "configDefaults" : {
     "optionSet" : {
-
+      "BazelBuildOptionsDebug" : {
+        "p" : "--strategy=ObjcCompile=standalone"
+      },
+      "BazelBuildOptionsRelease" : {
+        "p" : "--strategy=ObjcCompile=standalone"
+      }
     }
   },
   "packages" : [
     ""
-  ]
+  ],
+  "projectName" : "FullBazelIsolated",
+  "workspaceRoot" : ".."
 }

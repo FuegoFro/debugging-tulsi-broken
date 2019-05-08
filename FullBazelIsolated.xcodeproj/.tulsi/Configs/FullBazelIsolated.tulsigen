@@ -1,22 +1,21 @@
 {
-  "sourceFilters" : [
-    "Sources",
-    "Sources\/Public"
+  "additionalFilePaths" : [
+    "/BUILD"
   ],
   "buildTargets" : [
-    "\/\/:Core",
-    "\/\/:FullBazelSample",
-    "\/\/:Lib"
+    "//:FullBazelSample"
   ],
-  "projectName" : "FullBazelIsolated",
   "optionSet" : {
     "BazelBuildOptionsDebug" : {
+      "p" : "--strategy=ObjcCompile=standalone"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "--strategy=ObjcCompile=standalone"
+    },
+    "BazelBuildStartupOptionsDebug" : {
       "p" : ""
     },
     "BazelBuildStartupOptionsRelease" : {
-      "p" : ""
-    },
-    "BazelBuildStartupOptionsDebug" : {
       "p" : ""
     },
     "CommandlineArguments" : {
@@ -24,12 +23,11 @@
     },
     "EnvironmentVariables" : {
       "p" : ""
-    },
-    "BazelBuildOptionsRelease" : {
-      "p" : ""
     }
   },
-  "additionalFilePaths" : [
-    "\/BUILD"
+  "projectName" : "FullBazelIsolated",
+  "sourceFilters" : [
+    "Sources/...",
+    "Sources/Public"
   ]
 }

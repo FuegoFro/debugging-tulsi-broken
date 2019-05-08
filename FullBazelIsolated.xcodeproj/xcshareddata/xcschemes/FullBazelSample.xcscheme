@@ -1,32 +1,32 @@
 
-<Scheme LastUpgradeVersion="0610" version="1.3">
+<Scheme version="1.3" LastUpgradeVersion="1000">
     <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
         <BuildActionEntries>
-            <BuildActionEntry buildForArchiving="YES" buildForTesting="YES" buildForRunning="YES" buildForAnalyzing="YES" buildForProfiling="YES">
-                <BuildableReference BlueprintIdentifier="3D31C5E6ED2DC3A600000000" ReferencedContainer="container:FullBazelIsolated.xcodeproj" BuildableName="FullBazelSample.app" BlueprintName="FullBazelSample" BuildableIdentifier="primary"></BuildableReference>
+            <BuildActionEntry buildForArchiving="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForRunning="YES" buildForProfiling="YES">
+                <BuildableReference ReferencedContainer="container:FullBazelIsolated.xcodeproj" BuildableIdentifier="primary" BlueprintName="FullBazelSample" BlueprintIdentifier="D580163D8149194400000000" BuildableName="FullBazelSample.app"></BuildableReference>
             </BuildActionEntry>
         </BuildActionEntries>
     </BuildAction>
-    <TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Debug">
+    <TestAction shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB">
         <Testables></Testables>
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BlueprintIdentifier="3D31C5E6ED2DC3A600000000" ReferencedContainer="container:FullBazelIsolated.xcodeproj" BuildableName="FullBazelSample.app" BlueprintName="FullBazelSample" BuildableIdentifier="primary"></BuildableReference>
+            <BuildableReference BuildableIdentifier="primary" BuildableName="FullBazelSample.app" ReferencedContainer="container:FullBazelIsolated.xcodeproj" BlueprintIdentifier="D580163D8149194400000000" BlueprintName="FullBazelSample"></BuildableReference>
         </BuildableProductRunnable>
     </TestAction>
-    <LaunchAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" buildConfiguration="Debug" debugServiceExtension="internal" ignoresPersistentStateOnLaunch="NO" useCustomWorkingDirectory="NO" allowLocationSimulation="YES" debugDocumentVersioning="YES">
+    <LaunchAction selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="Debug" launchStyle="0" ignoresPersistentStateOnLaunch="NO" useCustomWorkingDirectory="NO" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" debugServiceExtension="internal" debugDocumentVersioning="YES" allowLocationSimulation="YES">
         <CommandLineArguments>
-            <CommandLineArgument argument="" isEnabled="YES"></CommandLineArgument>
+            <CommandLineArgument isEnabled="YES" argument=""></CommandLineArgument>
         </CommandLineArguments>
         <EnvironmentVariables></EnvironmentVariables>
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BlueprintIdentifier="3D31C5E6ED2DC3A600000000" ReferencedContainer="container:FullBazelIsolated.xcodeproj" BuildableName="FullBazelSample.app" BlueprintName="FullBazelSample" BuildableIdentifier="primary"></BuildableReference>
+            <BuildableReference BuildableIdentifier="primary" ReferencedContainer="container:FullBazelIsolated.xcodeproj" BlueprintIdentifier="D580163D8149194400000000" BlueprintName="FullBazelSample" BuildableName="FullBazelSample.app"></BuildableReference>
         </BuildableProductRunnable>
     </LaunchAction>
-    <ProfileAction useCustomWorkingDirectory="NO" shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Release" debugDocumentVersioning="YES">
+    <ProfileAction buildConfiguration="__TulsiTestRunner_Release" useCustomWorkingDirectory="NO" shouldUseLaunchSchemeArgsEnv="YES" debugDocumentVersioning="YES">
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BlueprintIdentifier="3D31C5E6ED2DC3A600000000" ReferencedContainer="container:FullBazelIsolated.xcodeproj" BuildableName="FullBazelSample.app" BlueprintName="FullBazelSample" BuildableIdentifier="primary"></BuildableReference>
+            <BuildableReference BuildableIdentifier="primary" ReferencedContainer="container:FullBazelIsolated.xcodeproj" BlueprintIdentifier="D580163D8149194400000000" BuildableName="FullBazelSample.app" BlueprintName="FullBazelSample"></BuildableReference>
         </BuildableProductRunnable>
     </ProfileAction>
     <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
-    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
+    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
 </Scheme>
